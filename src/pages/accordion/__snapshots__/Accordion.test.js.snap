@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Page should render correctly 1`] = `
+<div>
+  <div>
+    <button>
+      Title
+    </button>
+    <div>
+      Some Content
+    </div>
+    <button>
+      Another Title
+    </button>
+  </div>
+</div>
+`;

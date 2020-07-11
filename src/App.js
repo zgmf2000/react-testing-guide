@@ -6,13 +6,17 @@ import {
 } from 'react-router-dom';
 
 import Home from 'pages/home/Home';
+import AccordionForm from 'pages/accordion/AccordionForm'
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/accordion">
+          <AccordionForm />
         </Route>
       </Switch>
     </Router>
