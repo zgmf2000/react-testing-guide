@@ -7,6 +7,7 @@ import {
 
 import Home from 'pages/home/Home';
 import AccordionForm from 'pages/accordion/AccordionForm'
+import FakerGenerator from './pages/faker/FakerGenerator';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route exact path="/accordion">
           <AccordionForm />
+        </Route>
+        <Route exact path="/faker">
+          <FakerGenerator />
         </Route>
       </Switch>
     </Router>
